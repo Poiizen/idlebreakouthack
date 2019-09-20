@@ -3,19 +3,19 @@ import base64
 print("Idle Breakout Save Hack by Xsus")
 
 print("What level do you want to be on?")
-level = input()
+level = input(2)
 
 print("What amount of money would you like to have")
-money = input()
+money = input(999999999999)
 
 print("How much gold do you want")
-gold = input()
+gold = input(30000000)
 
 print("How many Black Boxes?")
 bb = input()
 
 print("How many skillpoints")
-sp = input()
+sp = input(1111555)
 
 s = f"{level},{money},{gold},2,0,0,0,0,0,0,0,1,1,0,43595.78,999999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,{bb},0,0,0,1,{sp},1,0,0"
 b = s.encode("UTF-8")
